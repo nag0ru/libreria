@@ -1,0 +1,147 @@
+<odoo>
+    <data>
+          <record id="Cuento" model="libreria.categoria">
+            <field name="name">Cuentos</field>
+          </record>
+
+          <record id="Novela" model="libreria.categoria">
+            <field name="name">Novela</field>
+          </record>
+
+          <record id="Poesía" model="libreria.categoria">
+            <field name="name">Poesía</field>
+          </record>
+
+
+          <record id="libro1" model="libreria.libro">
+            <field name="name">Las mil y una noches</field>
+            <field name="autor">Anónimo</field>
+            <field name="categoria_id" ref="Cuento"/>
+            <field name="fecha">700</field>
+            <field name="ejemplares">1</field>
+            <field name="valor">521.00</field>
+            <field name="estado">0</field>
+          </record>
+
+          <record id="libro2" model="libreria.libro">
+              <field name="name">Todo se desmorona</field>
+              <field name="autor">Chinua Achebe</field>
+              <field name="categoria_id" ref="Novela"/>
+              <field name="fecha">1958</field>
+              <field name="ejemplares">4</field>
+              <field name="valor">210.00</field>
+              <field name="estado">1</field>
+          </record>
+
+          <record id="libro3" model="libreria.libro">
+              <field name="name">Cuentos infantiles</field>
+              <field name="autor">Hans Christian Andersen</field>
+              <field name="categoria_id" ref="Cuento"/>
+              <field name="fecha">1836</field>
+              <field name="ejemplares">5</field>
+              <field name="valor">25.00</field>
+              <field name="estado">1</field>
+          </record>
+
+          <record id="libro4" model="libreria.libro">
+              <field name="name">Divina comedia</field>
+              <field name="autor">Dante Alighieri</field>
+              <field name="categoria_id" ref="Poesía"/>
+              <field name="fecha">1300</field>
+              <field name="ejemplares">1</field>
+              <field name="valor">112.00</field>
+              <field name="estado">1</field>
+          </record>
+
+          <record id="libro5" model="libreria.libro">
+              <field name="name">Orgullo y prejuicio</field>
+              <field name="autor">Jane Austen</field>
+              <field name="categoria_id" ref="Novela"/>
+              <field name="fecha">1813</field>
+              <field name="ejemplares">3</field>
+              <field name="valor">32.00</field>
+              <field name="estado">1</field>
+          </record>
+
+          <record id="libro6" model="libreria.libro">
+              <field name="name">Decamerón</field>
+              <field name="autor">Giovanni Boccaccio</field>
+              <field name="categoria_id" ref="Cuento"/>
+              <field name="fecha">1350</field>
+              <field name="ejemplares">3</field>
+              <field name="valor">232.00</field>
+              <field name="estado">2</field>
+          </record>
+
+          <record id="libro7" model="libreria.libro">
+              <field name="name">Ficciones</field>
+              <field name="autor">Jorge Luis Borges</field>
+              <field name="categoria_id" ref="Cuento"/>
+              <field name="fecha">1944</field>
+              <field name="ejemplares">6</field>
+              <field name="valor">55.00</field>
+              <field name="estado">0</field>
+          </record>
+
+          <record id="libro8" model="libreria.libro">
+              <field name="name">Cumbres Borrascosas</field>
+              <field name="autor">Emily Brontë</field>
+              <field name="categoria_id" ref="Novela"/>
+              <field name="fecha">1847</field>
+              <field name="ejemplares">4</field>
+              <field name="valor">21.00</field>
+              <field name="estado">2</field>
+          </record>
+
+          <record id="libro9" model="libreria.libro">
+              <field name="name">El extranjero</field>
+              <field name="autor">Albert Camus</field>
+              <field name="categoria_id" ref="Novela"/>
+              <field name="fecha">1942</field>
+              <field name="ejemplares">4</field>
+              <field name="valor">55.00</field>
+              <field name="estado">1</field>
+          </record>
+
+          <record id="libro10" model="libreria.libro">
+              <field name="name">Poemas</field>
+              <field name="autor">Paul Celan</field>
+              <field name="categoria_id" ref="Poesía"/>
+              <field name="fecha">1952</field>
+              <field name="ejemplares">6</field>
+              <field name="valor">29.00</field>
+              <field name="estado">1</field>
+          </record>
+
+          <record id="libro11" model="libreria.libro">
+              <field name="name">Viaje al fin de la noche</field>
+              <field name="autor">Louis-Ferdinand Céline</field>
+              <field name="categoria_id" ref="Novela"/>
+              <field name="fecha">1932</field>
+              <field name="ejemplares">2</field>
+              <field name="valor">32.00</field>
+              <field name="estado">1</field>
+          </record>
+
+          <record id="libro12" model="libreria.libro">
+              <field name="name">Don Quijote de la Mancha</field>
+              <field name="autor">Miguel de Cervantes</field>
+              <field name="categoria_id" ref="Novela"/>
+              <field name="fecha">1605</field>
+              <field name="ejemplares">4</field>
+              <field name="valor">32.00</field>
+              <field name="estado">0</field>
+          </record>
+
+          <record id="libro13" model="libreria.libro">
+              <field name="name">Los cuentos de Canterbury</field>
+              <field name="autor">Geoffrey Chaucer</field>
+              <field name="categoria_id" ref="Cuento"/>
+              <field name="fecha">1500</field>
+              <field name="ejemplares">2</field>
+              <field name="valor">19.00</field>
+              <field name="estado">1</field>
+          </record>
+
+    </data>
+</odoo>
